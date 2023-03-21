@@ -14,6 +14,7 @@
 
 ## רכיבים רשמיים
 
+![first pic](https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/9f4d23ec7ecfcda2dcd2fcbe03fcdd523282099f/iPad-screenshot-gestures-iPadOS-16-2-min.jpg)  
 
 
 
@@ -29,7 +30,7 @@
 * היעד במשחק משתנה באופציית בחירת המשתמשים, האם משחק שחקן אחד או שני שחקנים.
 * אם המשחק הינו יחידני, היעד במשחק הינו למידה, אך במשחק זוגי מצטרף היעד של לנצח את היריב.
 
-
+![2 players mode](https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/9f4d23ec7ecfcda2dcd2fcbe03fcdd523282099f/2PLAYERS.png)
 
 
 ### 3. תהליכים
@@ -84,7 +85,7 @@
 ## סקר שוק
 
 ### Fruits and Vegetables
-![game1 logo](/game1.png)  
+![game1 logo](https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/9f4d23ec7ecfcda2dcd2fcbe03fcdd523282099f/game1.PNG)  
 keywords: fruits and vegetables games for kindergarten
   
 https://mocomi.com/fruits-vegetables/
@@ -96,7 +97,8 @@ https://mocomi.com/fruits-vegetables/
 לכן לאחר שבחנתי את ההבדלים הללו אני מסיק שהמשחק שלנו חדשני יותר, מאתגר יותר ויגרום לשחקן לבחור לשחק במשחק שלנו.
 
 ### Fruit and Vegetables - Quiz
-  
+![game2 logo](  https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/9f4d23ec7ecfcda2dcd2fcbe03fcdd523282099f/game2.PNG)  
+
 keywords: fruit or vegetable game
   
 https://play.google.com/store/apps/details?id=com.asmolgam.fruits&hl=iw
@@ -114,7 +116,8 @@ https://play.google.com/store/apps/details?id=com.asmolgam.fruits&hl=iw
 
 
 ### Fruits And Vegetables For Kids
-  
+![game3 logo](  https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/9f4d23ec7ecfcda2dcd2fcbe03fcdd523282099f/game3.PNG))  
+
   keywords: Fruit & veg Quiz
   
 https://play.google.com/store/apps/details?id=com.bibubi.fruitsandvegetables
