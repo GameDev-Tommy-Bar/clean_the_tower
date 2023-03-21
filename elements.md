@@ -84,7 +84,7 @@
 ## סקר שוק
 
 ### Fruits and Vegetables
-  
+![game1 logo](/game1.png)  
 keywords: fruits and vegetables games for kindergarten
   
 https://mocomi.com/fruits-vegetables/
