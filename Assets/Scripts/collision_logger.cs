@@ -1,48 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TMPro;
 using System;
+using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class collision_logger : MonoBehaviour
+public class CollisionLogger : MonoBehaviour
 {
-    // Start is called before the first frame update
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI livesText;
 
-    int score;
-    int life;
-    void Start()
-    {
-        
-    }
+    private int score;
+    private int life;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("basket is "+this.tag+" and this is a "+other.tag);
+        Debug.Log("Basket is " + gameObject.tag + " and this is a " + other.tag);
         Destroy(other.gameObject);
-            if(other.tag == this.tag){
-                Debug.Log("youre awsome");
-                score = Int32.Parse(scoreText.text);
-                score += 1;
-                scoreText.text = ""+score;
-            }
-            else
-            {
-                Debug.Log("shit");
-                life = Int32.Parse(livesText.text);
-                life --;
-                livesText.text = ""+life;
-                if(life == 0){
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
-            }
-    }
 
+        if (other.CompareTag(gameObject.tag))
+        {
+            Debug.Log("Awesome!");
+            score = Int32.Parse(scoreText.text);
+            score += 1;
+            scoreText.text = score.ToString();
+        }
+        else
+        {
+            Debug.Log("Oh no!");
+            life = Int32.Parse(livesText.text);
+            life--;
+            livesText.text = life.ToString();
+
+            if (life == 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+    }
 }
