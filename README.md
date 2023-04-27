@@ -7,3 +7,8 @@
 #### [שחקו במשחק](https://tommy-bar.itch.io/fruitty-or-veggie)
 ![pic](https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/60eb2a963c3d9224c2c509e977d4b677fe0ba654/elements%20pics/Capture.PNG)
 #### [לעוד פרטים](https://github.com/GameDev-Tommy-Bar/fruty_or_veggie/blob/a64d6a02f5e27366230b5df1f9190065cc67272c/elements.md)
+#### במשחק זה הוספנו שני אובייקטים המדמים סלים, אחד לפירות ואחד לירקות
+#### בכל שתי שניות נופל אובייקט חדש (פרי או ירק) ועל השחקן להניע את החפץ לסל המתאים באמצעות מקשי החיצים
+#### יש מתזמן פירות וירקות שבוחר רנדומלי מאוסף ה prefabs
+#### כשהשחקן מכניס אובייקט לסל הלא נכון הוא מאבד נקודת חיים
+#### המטרה כרגע להצליח כמה שיותר נקודות ולהמשיך כמה שיותר זמן
